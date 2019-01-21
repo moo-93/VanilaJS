@@ -1,6 +1,15 @@
 body{
-    background-color: #2c3e50;
-    color: #1e272e
+    background-color: #ecf0f1;
+    color: white;
+}
+.container{
+    padding: 17% 0;
+    text-align: center;
+}
+
+div.clock h1{
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
 }
 
 .form,
@@ -10,6 +19,19 @@ body{
 
 .showing {
     display: block;
+    font-size: 3rem;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+}
+
+.toDoList {
+    display: inline-block;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.toDoList li button {
+    margin-left:10px;
 }
 
 @keyframes fadeIn{
@@ -27,6 +49,11 @@ body{
     width: 100%;
     height: 100%;
     z-index: -1;
-    animation: fadeIn 1.5s linear;
+    animation: fadeIn 2s linear;
 }
 
+.weather{
+    position: absolute;
+    bottom: 1.5%;
+    right: 1.5%;
+}

@@ -25,6 +25,9 @@
     - fetch()를 활용하여 HTTP 통신을 진행
     - JSON을 사용하여 원하는 데이터 받기
 
+## ver 0.8 Chrome Momenturm 앱을 참고해서 css 작업
+ - 가운데 정렬 및 폰트 크기, 색깔 수정 ..
+
 * * *
 
  ### 출처 : https://academy.nomadcoders.co/courses/enrolled/435558 (초보자를 위한 바닐라)
