@@ -16,3 +16,14 @@
 
 ## ver 0.5
  - background Image를 무작위로 넣기(refresh 할 때마다)
+
+## ver 0.6
+ - navigator의 geolocation 프로퍼티를 이용해 현재 위치의 좌표값 저장하기
+
+* * *
+
+ ### 출처 : https://academy.nomadcoders.co/courses/enrolled/435558 (초보자를 위한 바닐라)
+
+ ### 참고사이트 
+ - https://unsplash.com (이미지)
+ - https://flatuicolors.com/palette/se (RGB)
