@@ -20,6 +20,11 @@
 ## ver 0.6
  - navigator의 geolocation 프로퍼티를 이용해 현재 위치의 좌표값 저장하기
 
+## ver 0.7
+ - 외부 API를 이용하여 지역 날씨 표기하기
+    - fetch()를 활용하여 HTTP 통신을 진행
+    - JSON을 사용하여 원하는 데이터 받기
+
 * * *
 
  ### 출처 : https://academy.nomadcoders.co/courses/enrolled/435558 (초보자를 위한 바닐라)
@@ -27,3 +32,4 @@
  ### 참고사이트 
  - https://unsplash.com (이미지)
  - https://flatuicolors.com/palette/se (RGB)
+ - https://openweathermap.org/ (날씨 관련 외부 API)
