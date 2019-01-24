@@ -28,6 +28,12 @@
 ## ver 0.8 Chrome Momenturm 앱을 참고해서 css 작업
  - 가운데 정렬 및 폰트 크기, 색깔 수정 ..
 
+## ver 0.9
+ - css 수정 중
+    - 입력 폼 디자인 변경
+    - 전체적인 font 변경
+    - 날씨에 따라 관련된 icon 출력
+
 * * *
 
  ### 출처 : https://academy.nomadcoders.co/courses/enrolled/435558 (초보자를 위한 바닐라)

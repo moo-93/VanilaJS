@@ -3,13 +3,13 @@ body{
     color: white;
 }
 .container{
-    padding: 17% 0;
+    margin-top: 11%;
     text-align: center;
 }
 
 div.clock h1{
     font-size: 5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 .form,
@@ -19,26 +19,55 @@ div.clock h1{
 
 .showing {
     display: block;
-    font-size: 3rem;
-    margin-top: .5rem;
+    font-size: 2.5rem;
+    margin-top: 0;
     margin-bottom: .8rem;
+}
+
+.focus {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 22px;
+}
+
+.form input[type=text],
+.toDoForm input[type=text]{
+    border: 0;
+    background: 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.toDoForm input[type=text]:focus{
+    outline: 0;
+    border-bottom: 2px solid white;
 }
 
 .toDoList {
     display: inline-block;
     padding-left: 30px;
     text-align: left;
+    list-style-type: decimal-leading-zero;
 }
 
 .toDoList li button {
     margin-left:10px;
+}
+.toDoList li {
+    margin: 2px 0;
+}
+
+.icon {
+    position: relative;
+    right: 2.7rem;
+    bottom: 3rem;
+    display: block;
 }
 
 @keyframes fadeIn{
     from{
         opacity: 0;
     } to {
-        opacity: 1;
+        opacity: 0.7;
     }
 }
 
@@ -50,10 +79,11 @@ div.clock h1{
     height: 100%;
     z-index: -1;
     animation: fadeIn 2s linear;
+    opacity: 0.7;
 }
 
 .weather{
     position: absolute;
-    bottom: 1.5%;
-    right: 1.5%;
+    top: 0%;
+    right: 0.5%;
 }

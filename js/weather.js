@@ -17,7 +17,15 @@ function getWeather(lat, lng){
     }).then(function(json){ // response에 대한 pendding이 끝났으면 다음 함수 실행(then)
         const temperature = json.main.temp;
         const place = json.name;
-        weather.innerText = `${temperature} @ ${place}`;
+        const img_icon = document.createElement('img');
+        const weather_text = document.createElement('span');
+        img_icon.src = `http://openweathermap.org/img/w/${json.weather[0].icon}.png`;
+        img_icon.alt = json.weather[0].description;
+        img_icon.className = "icon";
+        weather_text.innerText = `${temperature} ℃
+        ${place}`;
+        weather.append(weather_text);
+        weather.append(img_icon);
     });
     // 주의 then() 함수를 사용하지 않을경우 오류를 발생 할 수 있음!
     // 위에 사용된 fetch()나 json()이 완료되지 않고 다음 구문을 진행하는 경우가 있음!

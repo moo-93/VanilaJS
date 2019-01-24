@@ -24,7 +24,16 @@ function askForName(){
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`;
+    let MAE = new String();
+    MAE = clockContainer.innerText;
+    if(MAE.substr(0,2) >= 12){
+        greeting.innerText = `Good afternoon ${text}`;
+    } else if(MAE.sub(0,2) >= 18){
+        greeting.innerText = `Good evening ${text}`;
+    } else {
+        greeting.innerText = `Good morning ${text}`;
+    }
+    
 }
 
 function loadName(){
